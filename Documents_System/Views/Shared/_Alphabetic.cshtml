@@ -1,0 +1,47 @@
+﻿@using (Html.BeginForm())
+{
+    <p>
+        Shared: @Html.DropDownList("letter", new List<SelectListItem>
+                            {
+                                   new SelectListItem { Text = "ALL", Value = "all", Selected = true },
+                                   new SelectListItem { Text = "A", Value = "a" },
+                                   new SelectListItem { Text = "B", Value = "b" },
+                                   new SelectListItem { Text = "C", Value = "c" },
+                                   new SelectListItem { Text = "D", Value = "d" },
+                                   new SelectListItem { Text = "E", Value = "e" },
+                                   new SelectListItem { Text = "F", Value = "f" },
+                                   new SelectListItem { Text = "G", Value = "g" },
+                                   new SelectListItem { Text = "H", Value = "h" },
+                                   new SelectListItem { Text = "I", Value = "i" },
+                                   new SelectListItem { Text = "J", Value = "j" },
+                                   new SelectListItem { Text = "K", Value = "k" },
+                                   new SelectListItem { Text = "L", Value = "l" },
+                                   new SelectListItem { Text = "M", Value = "m" },
+                                   new SelectListItem { Text = "N", Value = "n" },
+                                   new SelectListItem { Text = "O", Value = "o" },
+                                   new SelectListItem { Text = "P", Value = "p" },
+                                   new SelectListItem { Text = "Q", Value = "q" },
+                                   new SelectListItem { Text = "R", Value = "r" },
+                                   new SelectListItem { Text = "S", Value = "s" },
+                                   new SelectListItem { Text = "T", Value = "t" },
+                                   new SelectListItem { Text = "U", Value = "u" },
+                                   new SelectListItem { Text = "V", Value = "v" },
+                                   new SelectListItem { Text = "W", Value = "w" },
+                                   new SelectListItem { Text = "X", Value = "x" },
+                                   new SelectListItem { Text = "Y", Value = "y" },
+                                   new SelectListItem { Text = "Z", Value = "z" },
+                                   new SelectListItem { Text = "0", Value = "0" },
+                                   new SelectListItem { Text = "1", Value = "1" },
+                                   new SelectListItem { Text = "2", Value = "2" },
+                                   new SelectListItem { Text = "3", Value = "3" },
+                                   new SelectListItem { Text = "4", Value = "4" },
+                                   new SelectListItem { Text = "5", Value = "5" },
+                                   new SelectListItem { Text = "6", Value = "6" },
+                                   new SelectListItem { Text = "7", Value = "7" },
+                                   new SelectListItem { Text = "8", Value = "8" },
+                                   new SelectListItem { Text = "9", Value = "9" },
+                            })
+        <input type="submit" value="Ok" />
+    </p>
+}
+

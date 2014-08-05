@@ -1,0 +1,72 @@
+﻿@model Documents_Sytem.Domain.Entities.Document
+
+<h1>Add Document</h1>
+
+<div id="UploadFileForm">
+    @using (Html.BeginForm("Create", "Documents", FormMethod.Post, new { @enctype = "multipart/form-data", id = "profileFileForm" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name)
+                    @Html.ValidationMessageFor(model => model.Name)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Description, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Description)
+                    @Html.ValidationMessageFor(model => model.Description)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Category, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Category)
+                    @Html.ValidationMessageFor(model => model.Category)
+                </div>
+            </div>
+
+            <div id="errorMessage"></div>
+            <input style="cursor:pointer;" type="file" name="file" id="file" /><br />
+            <input type="submit" style="cursor:pointer; margin-top:30px;" id="upload" value="Upload" class="btn btn-primary btn-large" />
+        </div>
+    }
+
+</div>
+
+<div class="right">
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@if (ViewData["alert"] != null)
+{
+    <div id="dialog" title="Caution!">
+        <p><strong>Select file please :)</strong></p>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @if (ViewData["alert"] != null)
+    {
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script>
+            $(function () {
+                $("#dialog").dialog();
+            });
+        </script>
+    }
+}

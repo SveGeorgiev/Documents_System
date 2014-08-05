@@ -1,0 +1,70 @@
+﻿@model Documents_System.Models.DocumentViewModel
+
+@{
+    ViewBag.Title = "Documents";
+}
+
+<h1>Documents</h1>
+<br />
+
+<div class="panel-body" style="background-color: #ffb37d">
+    <p><a href="@Url.Content("~/Documents/Create/")" class="btn btn-primary btn-large">Upload Document &raquo;</a></p>
+
+    <div class="listItem">
+        @Html.Partial("_Alphabetic")
+    </div>
+
+    <table id="table_id" class="display table table-condensed table-striped">
+        <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                       Description 
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Uploaded on
+                    </th>
+                    <th></th>
+                </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Documents)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateTime)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Download", "Download", new { uniqueName = item.uniqueName }, new { @class = "btn btn-primary btn-large" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section scripts
+{
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.1/js/jquery.dataTables.js"></script>
+    <script src="~/Scripts/JavaScript.js"></script>
+}
+
+
+
+

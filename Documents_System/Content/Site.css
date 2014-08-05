@@ -1,0 +1,90 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 380px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Californian FB', Arial,sans-serif;
+    text-shadow: 5px 5px 5px #395c82, 0 0 10px #395c82;
+}
+
+h2 {
+    text-align: center;
+}
+
+textarea {
+    width: 450px;
+    height: 220px;
+    max-height: 200px;
+}
+
+.col-md-4 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.listItem {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#dialog {
+    text-align: center;
+    max-height: 50px;
+    max-width: 250px;
+}
+
+.ui-widget-header {
+    background: #395c82;
+}
+
+table.dataTable tbody td {
+    max-width:   350px;
+    overflow: hidden;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    max-width: 350px;
+    overflow:  hidden;
+}
