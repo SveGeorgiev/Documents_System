@@ -34,3 +34,39 @@ D:\VS Web 2013\Projects\Web\2014\Documents_System\Documents_System.Tests\bin\Deb
 D:\VS Web 2013\Projects\Web\2014\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.csprojResolveAssemblyReference.cache
 D:\VS Web 2013\Projects\Web\2014\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.dll
 D:\VS Web 2013\Projects\Web\2014\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.pdb
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_System.Tests.dll.config
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_System.Tests.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_System.Tests.pdb
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_System.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_Sytem.Domain.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Moq.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.Web.Common.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.Web.Mvc.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Razor.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\WebActivatorEx.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\EntityFramework.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_System.pdb
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Documents_Sytem.Domain.pdb
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Moq.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.Web.Common.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\Ninject.Web.Mvc.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Razor.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\bin\Debug\EntityFramework.xml
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.dll
+D:\Programming\GitHub\Documents_System\Documents_System.Tests\obj\Debug\Documents_System.Tests.pdb
